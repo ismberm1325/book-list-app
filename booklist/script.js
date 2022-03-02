@@ -31,11 +31,11 @@ class Book {
       list.appendChild(row);
     }
   
-    /*static deleteBook(el) {
+    static deleteBook(el) {
       if(el.classList.contains('delete')) {
         el.parentElement.parentElement.remove();
       }
-    }*/
+    }
   
     static showAlert(message, className) {
       const div = document.createElement('div');
